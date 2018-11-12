@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:KitchenApp2018"
+             x:Class="KitchenApp2018.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Glynn's Kitchen" 
+           HorizontalOptions="Center"
+           VerticalOptions="Start"/>
+        
+        <Button x:Name="menubtn" Text="Menu" HorizontalOptions="Center" Clicked="menubtn_Clicked"/>
+        
+        <Button x:Name="specialBtn" Text="Specials" HorizontalOptions="Center" Clicked="specialBtn_Clicked"/>
+        <Button x:Name="pizzasBtn" Text="Pizzas" HorizontalOptions="Center" Clicked="pizzasBtn_Clicked"/>
+        <Button x:Name="burgersBtn" Text="Burgers" HorizontalOptions="Center" Clicked="burgersBtn_Clicked"/>
+        <Button x:Name="wrapsBtn" Text="Wraps" HorizontalOptions="Center" Clicked="wrapsBtn_Clicked"/>
+        <Button x:Name="desertsBtn" Text="Deserts" HorizontalOptions="Center" Clicked="desertsBtn_Clicked"/>
+        
+    </StackLayout>
+
+</ContentPage>

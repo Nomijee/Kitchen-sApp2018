@@ -1,0 +1,1 @@
+D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\KitchenApp2018.UWP.csproj;x86
