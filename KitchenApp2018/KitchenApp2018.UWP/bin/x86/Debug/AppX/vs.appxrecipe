@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-12T21:30:51.585</Modified>
+      <Modified>2018-12-05T00:33:42.140</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\KitchenApp2018.UWP.exe">
       <PackagePath>entrypoint\KitchenApp2018.UWP.exe</PackagePath>
-      <Modified>2018-11-12T21:30:51.103</Modified>
+      <Modified>2018-12-05T00:33:27.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -856,11 +856,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-12T21:30:50.315</Modified>
+      <Modified>2018-12-05T00:33:41.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-12T21:30:50.315</Modified>
+      <Modified>2018-12-05T00:33:41.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -921,7 +921,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\Core\KitchenApp2018.UWP.exe">
       <PackagePath>KitchenApp2018.UWP.exe</PackagePath>
-      <Modified>2018-11-12T21:30:51.581</Modified>
+      <Modified>2018-12-05T00:33:42.131</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

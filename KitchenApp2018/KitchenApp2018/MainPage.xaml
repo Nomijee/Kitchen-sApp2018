@@ -1,17 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+
+
+<!--use the padding below in content to give bit space on the top of the page 
+    which is essential if making app on ios espacially -->
+<ContentPage
+    Padding="0,20,0,0"
+    xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:KitchenApp2018"
              x:Class="KitchenApp2018.MainPage">
-
+<!--use the stacklayout below to use--> 
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="Welcome to Glynn's Kitchen" 
            HorizontalOptions="Center"
            VerticalOptions="Start"/>
-        
+
         <Button x:Name="menubtn" Text="Menu" HorizontalOptions="Center" Clicked="menubtn_Clicked"/>
-        
         <Button x:Name="specialBtn" Text="Specials" HorizontalOptions="Center" Clicked="specialBtn_Clicked"/>
         <Button x:Name="pizzasBtn" Text="Pizzas" HorizontalOptions="Center" Clicked="pizzasBtn_Clicked"/>
         <Button x:Name="burgersBtn" Text="Burgers" HorizontalOptions="Center" Clicked="burgersBtn_Clicked"/>
