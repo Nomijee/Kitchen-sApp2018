@@ -640,6 +640,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\logo.jpg">
+      <PackagePath>logo.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

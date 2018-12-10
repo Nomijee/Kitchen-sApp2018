@@ -13,6 +13,7 @@ namespace KitchenApp2018
 
             MainPage = new NavigationPage(new MainPage());
         }
+       
 
         protected override void OnStart()
         {

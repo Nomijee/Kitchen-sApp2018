@@ -4,9 +4,11 @@
              x:Class="KitchenApp2018.specials">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Specials"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Welcome to Specials" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+            
+            
+            
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
