@@ -16,5 +16,25 @@ namespace KitchenApp2018
 		{
 			InitializeComponent ();
 		}
-	}
+        private void d1_Clicked(object sender, EventArgs e)
+        {
+
+            Navigation.PushAsync(new menu());
+        }
+        private void d2_Clicked(object sender, EventArgs e)
+        {
+
+            Navigation.PushAsync(new menu());
+        }
+        private void d3_Clicked(object sender, EventArgs e)
+        {
+
+            Navigation.PushAsync(new menu());
+        }
+        private void back_Clicked(object sender, EventArgs e)
+        {
+
+            Navigation.PushAsync(new MainPage());
+        }
+    }
 }

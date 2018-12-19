@@ -574,9 +574,6 @@
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\splashImage.png">
-      <PackagePath>Assets\splashImage.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -661,11 +658,35 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Menu-512.png">
-      <PackagePath>Menu-512.png</PackagePath>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\backBtn.png">
+      <PackagePath>backBtn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\burger.png">
+      <PackagePath>burger.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\cart1.png">
+      <PackagePath>cart1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\MenuLogo.png">
+      <PackagePath>MenuLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\splashImage.png">
+      <PackagePath>splashImage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Gourmet-Pepperoni-Pizza-Recipe.jpg">
+      <PackagePath>Gourmet-Pepperoni-Pizza-Recipe.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\lava 2.jpg">
+      <PackagePath>lava 2.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\logo.jpg">
       <PackagePath>logo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\pizza1.jpg">
+      <PackagePath>pizza1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\wrap.jpg">
+      <PackagePath>wrap.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

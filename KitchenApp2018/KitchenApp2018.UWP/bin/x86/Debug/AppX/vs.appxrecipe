@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-19T00:19:36.854</Modified>
+      <Modified>2018-12-19T05:16:25.464</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\KitchenApp2018.UWP.exe">
       <PackagePath>entrypoint\KitchenApp2018.UWP.exe</PackagePath>
-      <Modified>2018-12-19T00:19:35.451</Modified>
+      <Modified>2018-12-19T05:16:25.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -765,10 +765,6 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-11-12T19:18:37.121</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\splashImage.png">
-      <PackagePath>Assets\splashImage.png</PackagePath>
-      <Modified>2018-12-19T00:19:07.666</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -874,13 +870,45 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-11-12T19:18:37.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Menu-512.png">
-      <PackagePath>Menu-512.png</PackagePath>
-      <Modified>2018-12-18T19:15:27.689</Modified>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\backBtn.png">
+      <PackagePath>backBtn.png</PackagePath>
+      <Modified>2018-12-19T03:18:19.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\burger.png">
+      <PackagePath>burger.png</PackagePath>
+      <Modified>2018-12-19T02:47:42.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\cart1.png">
+      <PackagePath>cart1.png</PackagePath>
+      <Modified>2018-12-19T04:06:57.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\MenuLogo.png">
+      <PackagePath>MenuLogo.png</PackagePath>
+      <Modified>2018-12-19T00:45:45.214</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\splashImage.png">
+      <PackagePath>splashImage.png</PackagePath>
+      <Modified>2018-12-19T00:44:21.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Gourmet-Pepperoni-Pizza-Recipe.jpg">
+      <PackagePath>Gourmet-Pepperoni-Pizza-Recipe.jpg</PackagePath>
+      <Modified>2018-12-19T04:31:37.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\lava 2.jpg">
+      <PackagePath>lava 2.jpg</PackagePath>
+      <Modified>2018-12-19T04:14:43.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\logo.jpg">
       <PackagePath>logo.jpg</PackagePath>
       <Modified>2018-12-10T22:33:02.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\pizza1.jpg">
+      <PackagePath>pizza1.jpg</PackagePath>
+      <Modified>2018-12-19T03:45:23.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\wrap.jpg">
+      <PackagePath>wrap.jpg</PackagePath>
+      <Modified>2018-12-19T03:54:40.722</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -892,11 +920,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-19T00:19:34.593</Modified>
+      <Modified>2018-12-19T05:16:24.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-12-19T00:19:34.593</Modified>
+      <Modified>2018-12-19T05:16:24.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -953,11 +981,11 @@
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-19T00:19:36.353</Modified>
+      <Modified>2018-12-19T04:32:44.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\Core\KitchenApp2018.UWP.exe">
       <PackagePath>KitchenApp2018.UWP.exe</PackagePath>
-      <Modified>2018-12-19T00:19:36.845</Modified>
+      <Modified>2018-12-19T05:16:25.459</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

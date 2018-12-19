@@ -40,6 +40,11 @@ namespace KitchenApp2018
         {
             Navigation.PushAsync(new deserts());
         }
+        private void back_Clicked(object sender, EventArgs e)
+        {
+
+            Navigation.PushAsync(new MainPage());
+        }
 
 
     }

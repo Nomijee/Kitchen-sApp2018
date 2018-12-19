@@ -2,11 +2,46 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KitchenApp2018.burgers">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Burgers"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+
+    <!--use the stacklayout below to use-->
+    <StackLayout BackgroundColor="#660000">
+        <Grid BackgroundColor="Yellow" Margin="280,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center">
+                <Button  x:Name="back" Image="backBtn.png" BackgroundColor="Yellow" Clicked="back_Clicked" />
+            </StackLayout>
+            <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" Margin="66,0">
+                <Label Text="Burger Deals" TextColor="Red" HorizontalOptions="Center" />
+            </StackLayout>
+            <StackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" >
+                <Button Image="cart1.png" BackgroundColor="Yellow"/>
+            </StackLayout>
+        </Grid>
+
+        <!--use image on the top of main page after adding 
+      in drawable in resource for andriod and universal windows seprate -->
+        <Image Source="burger.png" HorizontalOptions="Center" MinimumHeightRequest="5" MinimumWidthRequest="5"/>
+
+        <!-- Place new controls here-->
+
+        <Button x:Name="b1" Text="Sherriff's Burger €5.50" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center" WidthRequest="465"  Clicked="b1_Clicked"/>
+        <Button x:Name="b2" Text="Flamingo Burger €5.50" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center"  WidthRequest="465" Clicked="b2_Clicked"/>
+        <Button x:Name="b3" Text="Quarter Pounder Burger €5.50" TextColor="#ffff00" BackgroundColor="#B8860B"  HorizontalOptions="Center" WidthRequest="456" Clicked="b3_Clicked"/>
+        <Button x:Name="b4" Text="Zinger Burger €5.50" TextColor="#ffff00" BackgroundColor="#B8860B"  HorizontalOptions="Center" WidthRequest="456" Clicked="b4_Clicked"/>
+        <Button x:Name="b5" Text="Veg Burger Burger €5.50" TextColor="#ffff00" BackgroundColor="#B8860B"  HorizontalOptions="Center" WidthRequest="456" Clicked="b5_Clicked"/>
+        
+
+
+
+
+    </StackLayout>
 </ContentPage>
+       

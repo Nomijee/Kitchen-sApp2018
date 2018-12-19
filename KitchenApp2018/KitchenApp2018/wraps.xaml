@@ -2,11 +2,39 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KitchenApp2018.wraps">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Wraps"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <!--use the stacklayout below to use-->
+    <StackLayout BackgroundColor="#660000">
+        <Grid BackgroundColor="Yellow" Margin="280,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center">
+                <Button  x:Name="back" Image="backBtn.png" BackgroundColor="Yellow" Clicked="back_Clicked" />
+            </StackLayout>
+            <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" Margin="66,0">
+                <Label Text="Wraps    " TextColor="Red" HorizontalOptions="Center" />
+            </StackLayout>
+            <StackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" >
+                <Button Image="cart1.png" BackgroundColor="Yellow"/>
+            </StackLayout>
+        </Grid>
+
+        <!--use image on the top of main page after adding 
+      in drawable in resource for andriod and universal windows seprate -->
+        <Image Source="wrap.jpg" HorizontalOptions="Center" MinimumHeightRequest="5" MinimumWidthRequest="5"/>
+
+        <!-- Place new controls here-->
+
+        <Button x:Name="w1" Text="Chicken Chilli Wrap €5.00" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center" WidthRequest="465"  Clicked="w1_Clicked"/>
+        <Button x:Name="w2" Text="Chicken Garlic Wrap €5.00" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center"  WidthRequest="465" Clicked="w2_Clicked"/>
+        <Button x:Name="w3" Text="Chicken Cajun Wrap €5.00" TextColor="#ffff00" BackgroundColor="#B8860B"  HorizontalOptions="Center" WidthRequest="456" Clicked="w3_Clicked"/>
+       
+
+    </StackLayout>
 </ContentPage>

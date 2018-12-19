@@ -6,7 +6,6 @@ Assets\LargeTile.scale-400.png
 Assets\SmallTile.scale-100.png
 Assets\SmallTile.scale-200.png
 Assets\SmallTile.scale-400.png
-Assets\splashImage.png
 Assets\SplashScreen.scale-100.png
 Assets\SplashScreen.scale-200.png
 Assets\SplashScreen.scale-400.png
@@ -28,9 +27,17 @@ Assets\StoreLogo.scale-400.png
 Assets\Wide310x150Logo.scale-100.png
 Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
+backBtn.png
 App.xbf
 KitchenApp2018.UWP.xr.xml
 MainPage.xbf
+burger.png
+cart1.png
+Gourmet-Pepperoni-Pizza-Recipe.jpg
+lava 2.jpg
 logo.jpg
-Menu-512.png
+MenuLogo.png
+pizza1.jpg
 Properties\Default.rd.xml
+splashImage.png
+wrap.jpg

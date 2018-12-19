@@ -15,9 +15,9 @@ namespace KitchenApp2018
             var lay = new AbsoluteLayout();
             splash_pic = new Image
             {
-                Source = "splashmage.png",
-                WidthRequest = 100,
-                HeightRequest = 100
+                Source = "splashImage.png",
+                WidthRequest = 200,
+                HeightRequest = 200
             };
             AbsoluteLayout.SetLayoutFlags(splash_pic, AbsoluteLayoutFlags.PositionProportional);
             AbsoluteLayout.SetLayoutBounds(splash_pic, new Rectangle(0.5, 0.5, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));

@@ -28,24 +28,21 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
             <StackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center">
-                <Button Image="Menu-512.png" BackgroundColor="Yellow" />
+                <Button  x:Name="back" Image="backBtn.png" BackgroundColor="Yellow" Clicked="back_Clicked" />
             </StackLayout>
             <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" Margin="66,0">
                 <Label Text="Welcome to Glynn's Kitchen" TextColor="Red" HorizontalOptions="Center" />
             </StackLayout>
             <StackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" >
-                <Button Image="Menu-512.png" BackgroundColor="Yellow"/>
+                <Button Image="cart1.png" BackgroundColor="Yellow"/>
             </StackLayout>
         </Grid>
 
 
         <Image Source="logo.jpg" HorizontalOptions="Center" />
 
-        <!-- Place new controls here -->
-        
-        <Label Text="Welcome to Glynn's Kitchen" TextColor="yellow" HorizontalOptions="Center" VerticalOptions="Start"/>
-        
-        <Button x:Name="menubtn" Text="Menu" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center" WidthRequest="170" Clicked="menubtn_Clicked"/>
+        <!-- Place new controls here -->   
+       
         <Button x:Name="specialBtn" Text="Specials" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center" WidthRequest="170" Clicked="specialBtn_Clicked"/>
         <Button x:Name="pizzasBtn" Text="Pizzas" TextColor="#ffff00" BackgroundColor="#B8860B"  HorizontalOptions="Center" WidthRequest="170" Clicked="pizzasBtn_Clicked"/>
         <Button x:Name="burgersBtn" Text="Burgers" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center" WidthRequest="170" Clicked="burgersBtn_Clicked"/>
