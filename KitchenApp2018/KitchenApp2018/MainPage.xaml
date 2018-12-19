@@ -15,11 +15,32 @@
 
       <!--use image on the top of main page after adding 
       in drawable in resource for andriod and universal windows seprate -->
+        
+       
+        <Grid BackgroundColor="Yellow" Margin="280,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center">
+                <Button Image="Menu-512.png" BackgroundColor="Yellow" />
+            </StackLayout>
+            <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" Margin="66,0">
+                <Label Text="Welcome to Glynn's Kitchen" TextColor="Red" HorizontalOptions="Center" />
+            </StackLayout>
+            <StackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" >
+                <Button Image="Menu-512.png" BackgroundColor="Yellow"/>
+            </StackLayout>
+        </Grid>
+
+
         <Image Source="logo.jpg" HorizontalOptions="Center" />
-         
-        
-        
-        
+
         <!-- Place new controls here -->
         
         <Label Text="Welcome to Glynn's Kitchen" TextColor="yellow" HorizontalOptions="Center" VerticalOptions="Start"/>
@@ -30,6 +51,7 @@
         <Button x:Name="burgersBtn" Text="Burgers" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center" WidthRequest="170" Clicked="burgersBtn_Clicked"/>
         <Button x:Name="wrapsBtn" Text="Wraps" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center" WidthRequest="170" Clicked="wrapsBtn_Clicked"/>
         <Button x:Name="desertsBtn" Text="Deserts"  TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center" WidthRequest="170" Clicked="desertsBtn_Clicked"/>
+        
         
         
     </StackLayout>

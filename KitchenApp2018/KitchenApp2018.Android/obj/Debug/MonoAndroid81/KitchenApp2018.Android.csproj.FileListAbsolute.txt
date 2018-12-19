@@ -1,0 +1,2 @@
+D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\KitchenApp2018.Android.csprojAssemblyReference.cache
+D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\res.flag

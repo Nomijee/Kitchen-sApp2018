@@ -304,3 +304,9 @@ D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\obj\x86\Debug\wraps.xaml.g.c
 D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\obj\x86\Debug\Pizzas.xaml.g.cs
 D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\obj\x86\Debug\burgers.xaml.g.cs
 D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\obj\x86\Debug\deserts.xaml.g.cs
+D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\e_sqlite3.dll
+D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\SQLite-net.dll
+D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_green.dll
+D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\SQLitePCLRaw.core.dll
+D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll

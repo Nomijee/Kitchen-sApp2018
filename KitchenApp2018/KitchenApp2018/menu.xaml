@@ -2,11 +2,25 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KitchenApp2018.menu">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to menu"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+   
+
+    <!--use the stacklayout below to use-->
+    <StackLayout BackgroundColor="#660000">
+
+        <!--use image on the top of main page after adding 
+      in drawable in resource for andriod and universal windows seprate -->
+        <Image Source="logo.jpg" HorizontalOptions="Center" />
+
+        <!-- Place new controls here -->
+
+        
+        <Label Text="Menu" TextColor="yellow" HorizontalOptions="Center" VerticalOptions="Start"/>
+
+        <Button x:Name="p1" Text="10 Small Pizza Meal €9.99" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center" WidthRequest="456"  Clicked="p1_Clicked"/>
+        <Button x:Name="p2" Text="10 Pizza with 3 toppings + Chips or wedges + 1 cans of soft drink" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center"  Clicked="p2_Clicked"/>
+        <Button x:Name="p3" Text="12 Medium Pizza Meal €12.99" TextColor="#ffff00" BackgroundColor="#B8860B"  HorizontalOptions="Center" WidthRequest="456" Clicked="p3_Clicked"/>
+    </StackLayout>
 </ContentPage>
+
+
+    

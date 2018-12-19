@@ -16,6 +16,7 @@ namespace KitchenApp2018
 
         private void menubtn_Clicked(object sender, EventArgs e)
         {
+           
             Navigation.PushAsync(new menu());
         }
 
