@@ -138,6 +138,7 @@
     <Content Include="MenuLogo.png" />
     <Content Include="pizza1.jpg" />
     <AndroidResource Include="pizza12.jpg" />
+    <Content Include="PizzaImage.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="splashImage.png" />
     <Content Include="wrap.jpg" />

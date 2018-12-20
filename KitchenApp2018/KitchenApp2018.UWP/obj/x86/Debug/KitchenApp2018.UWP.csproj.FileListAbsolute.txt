@@ -617,3 +617,9 @@ D:\App\KitchenApp2018\KitchenApp2018.UWP\obj\x86\Debug\qualifiers.txt.intermedia
 D:\App\KitchenApp2018\KitchenApp2018.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\App\KitchenApp2018\KitchenApp2018.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 D:\App\KitchenApp2018\KitchenApp2018.UWP\obj\x86\Debug\ProjectArchitectures.txt
+D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\SQLite-net.dll
+D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_green.dll
+D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\SQLitePCLRaw.core.dll
+D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\App\KitchenApp2018\KitchenApp2018.UWP\obj\x86\Debug\loginPage.xaml.g.cs

@@ -30,7 +30,7 @@ namespace KitchenApp2018
             base.OnAppearing();
             await splash_pic.FadeTo(0, 3000);
             await splash_pic.FadeTo(1, 1000);
-            Application.Current.MainPage = new NavigationPage(new MainPage());
+            Application.Current.MainPage = new NavigationPage(new loginPage());
         }
     }
 }

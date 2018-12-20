@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-20T02:14:58.860</Modified>
+      <Modified>2018-12-20T03:25:28.553</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\KitchenApp2018.UWP.exe">
       <PackagePath>entrypoint\KitchenApp2018.UWP.exe</PackagePath>
-      <Modified>2018-12-20T02:14:58.227</Modified>
+      <Modified>2018-12-20T03:25:28.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -695,6 +695,30 @@
       <PackagePath>netstandard.dll</PackagePath>
       <Modified>2018-05-16T16:28:36.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlite-net-pcl\1.5.231\lib\netstandard1.1\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2018-09-10T19:00:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
+      <Modified>2018-05-02T10:43:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2018-05-02T10:43:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlitepclraw.core\1.1.11\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2018-05-02T10:43:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.11\runtimes\win10-x86\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2018-05-02T10:44:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.11\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2018-05-02T10:44:20.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\xamarin.forms\3.1.0.697729\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
       <Modified>2018-07-26T18:16:18.000</Modified>
@@ -878,6 +902,10 @@
       <PackagePath>pizza1.jpg</PackagePath>
       <Modified>2018-12-19T03:45:23.909</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\PizzaImage.jpg">
+      <PackagePath>PizzaImage.jpg</PackagePath>
+      <Modified>2018-12-20T02:46:39.475</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\wrap.jpg">
       <PackagePath>wrap.jpg</PackagePath>
       <Modified>2018-12-19T03:54:40.722</Modified>
@@ -886,21 +914,17 @@
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-11-12T19:18:37.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.11\runtimes\win10-x86\native\e_sqlite3.dll">
-      <PackagePath>e_sqlite3.dll</PackagePath>
-      <Modified>2018-05-02T10:44:46.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\KitchenApp2018.UWP.xr.xml">
       <PackagePath>KitchenApp2018.UWP.xr.xml</PackagePath>
       <Modified>2018-11-12T19:35:45.114</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-20T02:14:57.072</Modified>
+      <Modified>2018-12-20T03:25:27.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-12-20T02:14:57.073</Modified>
+      <Modified>2018-12-20T03:25:27.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -957,11 +981,11 @@
     <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-20T01:58:18.529</Modified>
+      <Modified>2018-12-20T02:47:45.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\Core\KitchenApp2018.UWP.exe">
       <PackagePath>KitchenApp2018.UWP.exe</PackagePath>
-      <Modified>2018-12-20T02:14:58.855</Modified>
+      <Modified>2018-12-20T03:25:28.548</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

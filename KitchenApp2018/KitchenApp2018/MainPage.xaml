@@ -15,30 +15,7 @@
 
       <!--use image on the top of main page after adding 
       in drawable in resource for andriod and universal windows seprate -->
-        
-       
-        <Grid BackgroundColor="Yellow" >
-            <Grid.RowDefinitions>
-                <RowDefinition Height="50"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-            </Grid.ColumnDefinitions>
-            <StackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center">
-                <Button  x:Name="back" Image="backBtn.png" BackgroundColor="Yellow" Clicked="back_Clicked" />
-            </StackLayout>
-            <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" >
-                <Label Text="Welcome to Glynn's Kitchen" TextColor="Red" HorizontalOptions="Center" />
-            </StackLayout>
-            <StackLayout Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" >
-                <Button Image="cart1.png" BackgroundColor="Yellow"/>
-            </StackLayout>
-        </Grid>
-
-
+     
         <Image Source="logo.jpg" HorizontalOptions="Center" />
 
         <!-- Place new controls here -->   
@@ -48,8 +25,21 @@
         <Button x:Name="burgersBtn" Text="Burgers" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center" WidthRequest="170" Clicked="burgersBtn_Clicked"/>
         <Button x:Name="wrapsBtn" Text="Wraps" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center" WidthRequest="170" Clicked="wrapsBtn_Clicked"/>
         <Button x:Name="desertsBtn" Text="Deserts"  TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center" WidthRequest="170" Clicked="desertsBtn_Clicked"/>
-        
-        
-        
+
+        <Grid BackgroundColor="Yellow" >
+            <Grid.RowDefinitions>
+                
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" >
+                <Button Image="cart1.png" BackgroundColor="Yellow"/>
+            </StackLayout>
+        </Grid>
+
+
     </StackLayout>
 </ContentPage>

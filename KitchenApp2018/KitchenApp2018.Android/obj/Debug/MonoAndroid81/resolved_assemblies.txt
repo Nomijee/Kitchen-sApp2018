@@ -3,6 +3,12 @@ D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\ass
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\Java.Interop.dll
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Android.dll
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\mscorlib.dll
+D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\SQLite-net.dll
+D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.batteries_green.dll
+D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.batteries_v2.dll
+D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.core.dll
+D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
+D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\System.Core.dll
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\System.dll
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\System.Xml.dll
@@ -62,4 +68,6 @@ D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\ass
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\System.Runtime.InteropServices.dll
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Extensions.dll
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\System.Reflection.Extensions.dll
+D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\System.Threading.Tasks.dll
+D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\System.Globalization.dll
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Security.dll

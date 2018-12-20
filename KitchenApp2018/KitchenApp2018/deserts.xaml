@@ -4,26 +4,7 @@
              x:Class="KitchenApp2018.deserts">
     <!--use the stacklayout below to use-->
     <StackLayout BackgroundColor="#660000">
-        <Grid BackgroundColor="Yellow" Margin="280,0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="50"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-            </Grid.ColumnDefinitions>
-            <StackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center">
-                <Button  x:Name="back" Image="backBtn.png" BackgroundColor="Yellow" Clicked="back_Clicked" />
-            </StackLayout>
-            <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" Margin="66,0">
-                <Label Text="Desserts  " TextColor="Red" HorizontalOptions="Center" />
-            </StackLayout>
-            <StackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" >
-                <Button Image="cart1.png" BackgroundColor="Yellow"/>
-            </StackLayout>
-        </Grid>
+      
 
         <!--use image on the top of main page after adding 
       in drawable in resource for andriod and universal windows seprate -->
@@ -34,8 +15,24 @@
         <Button x:Name="d1" Text="Slice of Fudge Cake	€4.00" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center" WidthRequest="465"  Clicked="d1_Clicked"/>
         <Button x:Name="d2" Text="Slice of Banoffee Pie	€4.00" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center"  WidthRequest="465" Clicked="d2_Clicked"/>
         <Button x:Name="d3" Text="Chocolate Chip Cookies (2)	€2.00" TextColor="#ffff00" BackgroundColor="#B8860B"  HorizontalOptions="Center" WidthRequest="456" Clicked="d3_Clicked"/>
-       
+
+        <Grid BackgroundColor="Yellow" >
+            <Grid.RowDefinitions>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" >
+                <Button Image="cart1.png" BackgroundColor="Yellow"/>
+            </StackLayout>
+        </Grid>
 
 
     </StackLayout>
 </ContentPage>
+
+
+
