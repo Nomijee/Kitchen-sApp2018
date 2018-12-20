@@ -7962,11 +7962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\App\\KitchenApp2018\\KitchenApp2018.UWP\\KitchenApp2018.UWP.csproj",
+      "projectUniqueName": "D:\\Kitchen-sApp2018\\KitchenApp2018\\KitchenApp2018.UWP\\KitchenApp2018.UWP.csproj",
       "projectName": "KitchenApp2018.UWP",
-      "projectPath": "D:\\App\\KitchenApp2018\\KitchenApp2018.UWP\\KitchenApp2018.UWP.csproj",
+      "projectPath": "D:\\Kitchen-sApp2018\\KitchenApp2018\\KitchenApp2018.UWP\\KitchenApp2018.UWP.csproj",
       "packagesPath": "C:\\Users\\faroo\\.nuget\\packages\\",
-      "outputPath": "D:\\App\\KitchenApp2018\\KitchenApp2018.UWP\\obj\\",
+      "outputPath": "D:\\Kitchen-sApp2018\\KitchenApp2018\\KitchenApp2018.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
