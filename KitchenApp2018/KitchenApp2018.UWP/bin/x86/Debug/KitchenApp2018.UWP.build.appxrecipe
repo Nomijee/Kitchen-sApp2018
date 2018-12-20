@@ -679,6 +679,9 @@
     <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\logo.jpg">
       <PackagePath>logo.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\logo2.jpg">
+      <PackagePath>logo2.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\pizza1.jpg">
       <PackagePath>pizza1.jpg</PackagePath>
     </AppxPackagedFile>

@@ -20,6 +20,7 @@
       <DependentUpon>burgers.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CartItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)deserts.xaml.cs">
       <DependentUpon>deserts.xaml</DependentUpon>
       <SubType>Code</SubType>

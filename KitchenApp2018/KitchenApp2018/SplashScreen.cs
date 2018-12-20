@@ -13,6 +13,7 @@ namespace KitchenApp2018
             NavigationPage.SetHasNavigationBar(this, false);
 
             var lay = new AbsoluteLayout();
+            //SPLASH SCREEN 
             splash_pic = new Image
             {
                 Source = "splashImage.png",
@@ -25,9 +26,12 @@ namespace KitchenApp2018
             this.BackgroundColor = Color.Red;
             this.Content = lay;
         }
+        
         protected override async void OnAppearing()
         {
-            base.OnAppearing();
+          
+             base.OnAppearing();
+            //image fadind UPON LOADING OF APP 
             await splash_pic.FadeTo(0, 3000);
             await splash_pic.FadeTo(1, 1000);
             Application.Current.MainPage = new NavigationPage(new loginPage());

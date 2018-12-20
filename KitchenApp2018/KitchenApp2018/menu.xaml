@@ -4,16 +4,22 @@
              x:Class="KitchenApp2018.menu">
    
 
-    <!--use the stacklayout below to use-->
+    <!--background color-->
     <StackLayout BackgroundColor="#660000">
 
-        <!--use image on the top of main page after adding 
-      in drawable in resource for andriod and universal windows seprate -->
-        <Image Source="logo.jpg" HorizontalOptions="Center" />
 
-        <!-- Place new controls here -->
-
-        
+        <!--quantity button-->
+        <Entry x:Name="quntity" Placeholder="Enter Quantity Here" Keyboard="Numeric"   WidthRequest="200" HorizontalOptions="Center"/>
+        <!-- cart add  button -->
+        <Button x:Name="addBtn" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" Text="Click to Add"
+                TextColor="Yellow"  BackgroundColor="#B8860B" CornerRadius="12" Clicked="addBtn_Clicked"/>
+        <!-- cart delete button -->
+        <Button x:Name="delBtn" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" Text="Click to Remove"
+                TextColor="Yellow"  BackgroundColor="#B8860B" CornerRadius="12" Clicked="delBtn_Clicked"/>
+        <!-- confirm to cart button -->
+        <Button x:Name="conBtn" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" Text="Click to Confirm"
+                TextColor="Yellow"  BackgroundColor="#B8860B" CornerRadius="12" Clicked="conBtn_Clicked"/>
+        <!-- page -->
         <Label Text="Menu" TextColor="yellow" HorizontalOptions="Center" VerticalOptions="Start"/>
 
         

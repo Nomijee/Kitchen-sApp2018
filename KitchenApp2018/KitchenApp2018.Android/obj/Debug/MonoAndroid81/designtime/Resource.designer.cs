@@ -2910,7 +2910,10 @@ namespace KitchenApp2018.Droid
 			public const int logo = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int MenuLogo = 2130771975;
+			public const int logo2 = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int MenuLogo = 2130771976;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -3011,17 +3014,17 @@ namespace KitchenApp2018.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010008
-			public const int pizza1 = 2130771976;
-			
 			// aapt resource value: 0x7F010009
-			public const int pizza12 = 2130771977;
+			public const int pizza1 = 2130771977;
 			
 			// aapt resource value: 0x7F010010
-			public const int PizzaImage = 2130771984;
+			public const int pizza12 = 2130771984;
 			
 			// aapt resource value: 0x7F010011
-			public const int splashImage = 2130771985;
+			public const int PizzaImage = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int splashImage = 2130771986;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3029,8 +3032,8 @@ namespace KitchenApp2018.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010012
-			public const int wrap = 2130771986;
+			// aapt resource value: 0x7F010013
+			public const int wrap = 2130771987;
 			
 			static Drawable()
 			{

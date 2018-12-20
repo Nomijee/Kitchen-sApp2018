@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KitchenApp2018.burgers">
 
-    <!--use the stacklayout below to use-->
+    <!--use the stacklayout FOR WHOLE BACKGROUND-->
     <StackLayout BackgroundColor="#660000">
         
         <!--use image on the top of main page after adding 
@@ -18,15 +18,13 @@
         <Button x:Name="b4" Text="Zinger Burger €5.50" TextColor="#ffff00" BackgroundColor="#B8860B"  HorizontalOptions="Center" WidthRequest="456" Clicked="b4_Clicked"/>
         <Button x:Name="b5" Text="Veg Burger Burger €5.50" TextColor="#ffff00" BackgroundColor="#B8860B"  HorizontalOptions="Center" WidthRequest="456" Clicked="b5_Clicked"/>
 
+        <!-- wanted to bring this up on the top with menu bar and msg but app started crash for some reason last minute -->
         <Grid BackgroundColor="Yellow" >
             <Grid.RowDefinitions>
-
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
-
             </Grid.ColumnDefinitions>
-
             <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" >
                 <Button Image="cart1.png" BackgroundColor="Yellow"/>
             </StackLayout>

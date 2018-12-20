@@ -113,6 +113,7 @@ D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\ass
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\System.Xml.pdb
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Core.pdb
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Xaml.pdb
+D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\res\drawable\logo2.jpg
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\linksrc\KitchenApp2018.Android.pdb
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb
 D:\App\KitchenApp2018\KitchenApp2018.Android\obj\Debug\MonoAndroid81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

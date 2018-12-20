@@ -135,6 +135,7 @@
     <Content Include="cart1.png" />
     <Content Include="lava2.jpg" />
     <Content Include="logo.jpg" />
+    <Content Include="logo2.jpg" />
     <Content Include="MenuLogo.png" />
     <Content Include="pizza1.jpg" />
     <AndroidResource Include="pizza12.jpg" />

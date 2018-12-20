@@ -16,15 +16,21 @@ namespace KitchenApp2018
         {
             InitializeComponent();
         }
-        private void OnSignUpButtonClicked(object sender, EventArgs e)
-        {
-
-            Navigation.PushAsync(new MainPage());
-        }
         private void OnLoginButtonClicked(object sender, EventArgs e)
         {
-
-            Navigation.PushAsync(new MainPage());
+            // should be enter with email and password 
+            bool isUserEmpty, isPwdEmpty;
+            isUserEmpty = String.IsNullOrEmpty(usernameEntry.Text);
+            isPwdEmpty = String.IsNullOrEmpty(passwordEntry.Text);
+            if (isUserEmpty || isPwdEmpty)
+            {
+                DisplayAlert("Error", "Email or Password cannot be empty", "Try Again");
+            }
+            //then go to main page  
+            else
+            {
+                Navigation.PushAsync(new MainPage());
+            } 
         }
     }
 }

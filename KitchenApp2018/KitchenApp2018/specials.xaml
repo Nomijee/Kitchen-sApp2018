@@ -16,15 +16,14 @@
         <Button x:Name="s2" Text="Any 2  16 inch pizza with 3 toppings 	€25.00" TextColor="#ffff00" BackgroundColor="#B8860B" HorizontalOptions="Center"  WidthRequest="465" Clicked="s2_Clicked"/>
         <Button x:Name="s3" Text="Any 3  16 inch pizza with 3 toppings 	30.00" TextColor="#ffff00" BackgroundColor="#B8860B"  HorizontalOptions="Center" WidthRequest="456" Clicked="s3_Clicked"/>
 
+        
+        <!-- wanted to bring this up on the top with menu bar and msg but app started crash for some reason last minute -->
         <Grid BackgroundColor="Yellow" >
             <Grid.RowDefinitions>
-
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
-
             </Grid.ColumnDefinitions>
-
             <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" >
                 <Button Image="cart1.png" BackgroundColor="Yellow"/>
             </StackLayout>
