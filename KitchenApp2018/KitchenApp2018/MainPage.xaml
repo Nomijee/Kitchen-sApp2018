@@ -17,7 +17,7 @@
       in drawable in resource for andriod and universal windows seprate -->
         
        
-        <Grid BackgroundColor="Yellow" Margin="280,0">
+        <Grid BackgroundColor="Yellow" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="*"/>
@@ -30,10 +30,10 @@
             <StackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center">
                 <Button  x:Name="back" Image="backBtn.png" BackgroundColor="Yellow" Clicked="back_Clicked" />
             </StackLayout>
-            <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" Margin="66,0">
+            <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" >
                 <Label Text="Welcome to Glynn's Kitchen" TextColor="Red" HorizontalOptions="Center" />
             </StackLayout>
-            <StackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" >
+            <StackLayout Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" >
                 <Button Image="cart1.png" BackgroundColor="Yellow"/>
             </StackLayout>
         </Grid>

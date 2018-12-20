@@ -28,7 +28,8 @@ namespace KitchenApp2018
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            await splash_pic.FadeTo(18, 2500);
+            await splash_pic.FadeTo(0, 3000);
+            await splash_pic.FadeTo(1, 1000);
             Application.Current.MainPage = new NavigationPage(new MainPage());
         }
     }

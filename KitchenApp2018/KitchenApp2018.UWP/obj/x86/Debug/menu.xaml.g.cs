@@ -13,7 +13,7 @@
 namespace KitchenApp2018 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\KitchenApp2018\\KitchenApp2018\\KitchenApp2018\\menu.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\App\\KitchenApp2018\\KitchenApp2018\\menu.xaml")]
     public partial class menu : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

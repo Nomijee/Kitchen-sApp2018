@@ -27,7 +27,7 @@
 
         <!--use image on the top of main page after adding 
       in drawable in resource for andriod and universal windows seprate -->
-        <Image Source="Gourmet-Pepperoni-Pizza-Recipe.jpg" HorizontalOptions="Center" HeightRequest="300" MinimumWidthRequest="500"/>
+        <Image Source="pizza12.jpg" HorizontalOptions="Center" HeightRequest="300" MinimumWidthRequest="500"/>
 
         <!-- Place new controls here-->
 

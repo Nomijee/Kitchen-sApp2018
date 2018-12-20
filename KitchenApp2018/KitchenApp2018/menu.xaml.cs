@@ -1,5 +1,4 @@
-﻿using SQLite;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +12,7 @@ namespace KitchenApp2018
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class menu : ContentPage
 	{
-        public SQLiteConnection cart;
+       
 		public menu ()
 		{
 			InitializeComponent ();

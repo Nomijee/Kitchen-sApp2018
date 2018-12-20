@@ -27,7 +27,7 @@
 
         <!--use image on the top of main page after adding 
       in drawable in resource for andriod and universal windows seprate -->
-        <Image Source="lava 2.jpg" HorizontalOptions="Center"/>
+        <Image Source="lava2.jpg" HorizontalOptions="Center"/>
 
         <!-- Place new controls here-->
         

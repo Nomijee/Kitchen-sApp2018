@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=6c32994b-c9f4-4765-bff6-415b33c8c83e</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\App\KitchenApp2018\KitchenApp2018.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\KitchenApp2018.UWP.exe">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\KitchenApp2018.UWP.exe">
       <PackagePath>entrypoint\KitchenApp2018.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
@@ -520,24 +520,6 @@
     <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\lib\uap10.0.15138\netstandard.dll">
       <PackagePath>netstandard.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlite-net-pcl\1.5.231\lib\netstandard1.1\SQLite-net.dll">
-      <PackagePath>SQLite-net.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
-      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
-      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlitepclraw.core\1.1.11\lib\uap10.0\SQLitePCLRaw.core.dll">
-      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.11\runtimes\win10-x86\native\e_sqlite3.dll">
-      <PackagePath>e_sqlite3.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.11\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
-      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\xamarin.forms\3.1.0.697729\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>
@@ -550,154 +532,154 @@
     <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\xamarin.forms\3.1.0.697729\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\backBtn.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\backBtn.png">
       <PackagePath>backBtn.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\burger.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\burger.png">
       <PackagePath>burger.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\cart1.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\cart1.png">
       <PackagePath>cart1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\MenuLogo.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\MenuLogo.png">
       <PackagePath>MenuLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\splashImage.png">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\splashImage.png">
       <PackagePath>splashImage.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Gourmet-Pepperoni-Pizza-Recipe.jpg">
-      <PackagePath>Gourmet-Pepperoni-Pizza-Recipe.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\lava2.jpg">
+      <PackagePath>lava2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\lava 2.jpg">
-      <PackagePath>lava 2.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\logo.jpg">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\logo.jpg">
       <PackagePath>logo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\pizza1.jpg">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\pizza1.jpg">
       <PackagePath>pizza1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\wrap.jpg">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\wrap.jpg">
       <PackagePath>wrap.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\KitchenApp2018.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.11\runtimes\win10-x86\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\KitchenApp2018.UWP.xr.xml">
       <PackagePath>KitchenApp2018.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
@@ -739,11 +721,11 @@
     <AppxPackagedFile Include="C:\Users\faroo\.nuget\packages\xamarin.forms\3.1.0.697729\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KitchenApp2018\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\Core\KitchenApp2018.UWP.exe">
+    <AppxPackagedFile Include="D:\App\KitchenApp2018\KitchenApp2018.UWP\bin\x86\Debug\Core\KitchenApp2018.UWP.exe">
       <PackagePath>KitchenApp2018.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

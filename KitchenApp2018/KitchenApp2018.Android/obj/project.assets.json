@@ -934,11 +934,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\KitchenApp2018\\KitchenApp2018\\KitchenApp2018.Android\\KitchenApp2018.Android.csproj",
+      "projectUniqueName": "D:\\App\\KitchenApp2018\\KitchenApp2018.Android\\KitchenApp2018.Android.csproj",
       "projectName": "KitchenApp2018.Android",
-      "projectPath": "D:\\KitchenApp2018\\KitchenApp2018\\KitchenApp2018.Android\\KitchenApp2018.Android.csproj",
+      "projectPath": "D:\\App\\KitchenApp2018\\KitchenApp2018.Android\\KitchenApp2018.Android.csproj",
       "packagesPath": "C:\\Users\\faroo\\.nuget\\packages\\",
-      "outputPath": "D:\\KitchenApp2018\\KitchenApp2018\\KitchenApp2018.Android\\obj\\",
+      "outputPath": "D:\\App\\KitchenApp2018\\KitchenApp2018.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

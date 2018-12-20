@@ -96,7 +96,6 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sqlite-windowsapp.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -134,11 +133,11 @@
     <Content Include="backBtn.png" />
     <Content Include="burger.png" />
     <Content Include="cart1.png" />
-    <Content Include="Gourmet-Pepperoni-Pizza-Recipe.jpg" />
-    <Content Include="lava 2.jpg" />
+    <Content Include="lava2.jpg" />
     <Content Include="logo.jpg" />
     <Content Include="MenuLogo.png" />
     <Content Include="pizza1.jpg" />
+    <AndroidResource Include="pizza12.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="splashImage.png" />
     <Content Include="wrap.jpg" />

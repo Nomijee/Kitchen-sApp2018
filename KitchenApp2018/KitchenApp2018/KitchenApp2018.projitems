@@ -20,7 +20,6 @@
       <DependentUpon>burgers.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)cart model\cart.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)deserts.xaml.cs">
       <DependentUpon>deserts.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -41,7 +40,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)SplashScreen.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)sqliteInterface.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)wraps.xaml.cs">
       <DependentUpon>wraps.xaml</DependentUpon>
       <SubType>Code</SubType>
